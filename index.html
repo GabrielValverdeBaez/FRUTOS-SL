@@ -1239,6 +1239,21 @@
   }
 
   /* ============= UTILITIES ============= */
+  /* ============= DIARIO SIN IMÁGENES ============= */
+  #view-journal .journal-featured-img,
+  #view-journal .article-image {
+    display: none;
+  }
+
+  #view-journal .journal-featured {
+    grid-template-columns: 1fr;
+    max-width: 900px;
+  }
+
+  #view-journal .journal-list .article-card {
+    border-top: 1px solid var(--ink);
+    padding-top: 24px;
+  }
   @media (max-width: 1024px) {
     .nav { padding: 18px 24px; }
     .hero { grid-template-columns: 1fr; min-height: auto; }
